@@ -336,7 +336,10 @@ ViewportActionBar.propTypes = {
     isTracked: PropTypes.bool.isRequired,
     isRehydratable: PropTypes.bool.isRequired,
     studyDate: PropTypes.string.isRequired,
-    currentSeries: PropTypes.string.isRequired,
+    currentSeries: PropTypes.oneOfType([
+      PropTypes.string,
+      PropTypes.number
+    ]).isRequired,
     seriesDescription: PropTypes.string.isRequired,
     modality: PropTypes.string.isRequired,
     patientInformation: PropTypes.shape({
