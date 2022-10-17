@@ -27,6 +27,10 @@
     {
       "packageName": "@ohif/extension-tmtv",
       "version": "3.0.0"
+    },
+    {
+      "packageName": "mammo-hp",
+      "version": "0.0.1"
     }
   ],
   "modes": [
@@ -37,6 +41,10 @@
     {
       "packageName": "@ohif/mode-tmtv",
       "version": "3.0.0"
+    },
+    {
+      "packageName": "hp-mode",
+      "version": "0.0.1"
     }
   ],
   "modesFactory": [],

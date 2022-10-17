@@ -26,7 +26,7 @@ const defaultProtocol = {
         layoutType: 'grid',
         properties: {
           rows: 1,
-          columns: 1,
+          columns: 2,
         },
       },
       viewports: [
